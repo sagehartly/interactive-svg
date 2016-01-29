@@ -15,3 +15,19 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.left-ear {
+
+  transform-origin: 100px 82px;
+  transition: all .5s linear;
+}
+
+.left-ear:hover {
+  transform: rotate(60deg);
+}
+
+
+.st0{fill:#673200;}
+.st1{fill:#FFAACA;}
+.st2{fill:#C65B00;}
+.st3{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}

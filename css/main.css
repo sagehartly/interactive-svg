@@ -16,14 +16,16 @@ html {
   box-sizing: inherit;
 }
 
-.left-ear {
-
-  transform-origin: 100px 82px;
+.left-ear, .right-ear {
   transition: all .5s linear;
 }
 
-.left-ear:hover {
-  transform: rotate(60deg);
+.bear:hover .right-ear {
+  transform: translate(0px, -10px);
+}
+
+.bear:hover .left-ear {
+  transform: translate(0px, -10px);
 }
 
 
